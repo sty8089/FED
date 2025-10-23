@@ -1,0 +1,28 @@
+[FED GDP Analysis]
+name = "gdp-analysis"
+version = "0.1.0"
+description = "GDP analysis for UK, USA, Brazil, Japan, China, Germany, and Switzerland from 2002-2022"
+authors = [
+    {name = "Hsin-Ta Tsai", email = "tsai.hsinta@gmail.com"}
+   
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "jupyter>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_system"
+
+[tool.setuptools]
+packages = ["."]
