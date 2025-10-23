@@ -1,4 +1,4 @@
-name: base
+name: fedenv
 channels:
   - defaults
 dependencies:
