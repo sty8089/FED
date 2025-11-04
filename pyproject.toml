@@ -1,10 +1,10 @@
-[FED GDP Analysis]
+[project]
 name = "gdp-analysis"
 version = "0.1.0"
 description = "GDP analysis for UK, USA, Brazil, Japan, China, Germany, and Switzerland from 2002-2022"
 authors = [
     {name = "Hsin-Ta Tsai", email = "tsai.hsinta@gmail.com"}
-   
+
 ]
 readme = "README.md"
 requires-python = ">=3.8"
